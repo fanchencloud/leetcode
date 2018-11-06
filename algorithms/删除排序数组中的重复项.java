@@ -4,6 +4,7 @@ class Solution {
             return 0;
         }
         int sum = 0;
+        // 0 0 1 1 1 2 2 3 4 4
         for (int i = 0; i < nums.length; i++) {
             int j = i;
             while (j < nums.length && nums[j] == nums[i]) {
